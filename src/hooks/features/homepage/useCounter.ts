@@ -8,13 +8,14 @@ export default function useCounter() {
     setCount(prev => prev + val);
   };
 
- 
+  /* 
   const updateVal = (newVal) => {
     // increment one time using **old val**
     setCount(prev => prev + val);
     // then update val
     setVal(newVal);
-  };
+  };*/
 
-  return { count, val, increment, setVal: updateVal };
+  //return { count, val, increment, setVal: updateVal };
+  return { count, val, increment, setVal};
 }
